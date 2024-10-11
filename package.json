@@ -18,7 +18,7 @@
     "@ton/test-utils": "^0.4.2",
     "@ton/ton": "^13.9.0",
     "@types/jest": "^29.2.4",
-    "@types/node": "^18.11.14",
+    "@types/node": "^20.12.4",
     "@types/qs": "^6.9.7",
     "base64url": "^3.0.1",
     "enquirer": "^2.3.6",
