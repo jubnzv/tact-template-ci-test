@@ -15,6 +15,12 @@ contract SampleTactContract with Deployable {
     }
 
     fun add(v: Int) {
+        // Bad: branch duplicate
+        if (self.counter == 0) {
+            dump("foo");
+        } else {
+            dump("foo");
+        }
         
         // Check sender
         let ctx: Context = context();
