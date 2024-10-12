@@ -28,7 +28,7 @@ jobs:
         run: yarn install
 
       - name: Run Misti
-        run: npx run misti -m medium tact.config.json
+        run: yarn misti -m medium tact.config.json
 
       - name: Build
         run: yarn install
